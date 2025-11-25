@@ -24,7 +24,7 @@ export default function WhyForme() {
           >
             <div className="relative h-[600px] rounded-3xl overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1518611012118-696072aa579a?q=80&w=2940"
+                src="/1.png"
                 alt="FORMÉ Community"
                 fill
                 className="object-cover"
@@ -37,7 +37,7 @@ export default function WhyForme() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.4 }}
-              className="absolute -bottom-8 -right-8 bg-caramel text-white p-8 rounded-2xl shadow-2xl"
+              className="absolute -bottom-8 -right-8 bg-caramel/90 backdrop-blur-md text-white p-8 rounded-2xl shadow-2xl border border-white/20"
             >
               <div className="grid grid-cols-3 gap-8">
                 {stats.map((stat, index) => (

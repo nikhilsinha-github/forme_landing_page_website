@@ -85,7 +85,7 @@ export default function FabricCraftsmanship() {
             className="relative h-[700px] rounded-3xl overflow-hidden"
           >
             <Image
-              src="https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80&w=2874"
+              src="/2.png"
               alt="Fabric Detail"
               fill
               className="object-cover"

@@ -9,28 +9,28 @@ const products = [
     id: 1,
     name: 'Sculpt Leggings',
     price: '₹2,999',
-    image: 'https://images.unsplash.com/photo-1506629082955-511b1aa562c8?q=80&w=2787',
+    image: '/product_1.png',
     tag: 'Bestseller'
   },
   {
     id: 2,
     name: 'Power Sports Bra',
     price: '₹1,899',
-    image: 'https://images.unsplash.com/photo-1571019613576-2b22c76fd955?q=80&w=2940',
+    image: '/product_2.png',
     tag: 'New'
   },
   {
     id: 3,
     name: 'Flow Tank Top',
     price: '₹1,499',
-    image: 'https://images.unsplash.com/photo-1518611012118-696072aa579a?q=80&w=2940',
+    image: '/product_3.png',
     tag: null
   },
   {
     id: 4,
-    name: 'Comfort Shorts',
+    name: 'Comfort Pants',
     price: '₹1,799',
-    image: 'https://images.unsplash.com/photo-1549060279-7e168fcee0c2?q=80&w=2940',
+    image: '/product_4.png',
     tag: 'New'
   }
 ];
@@ -110,7 +110,7 @@ export default function ProductShowcase() {
           viewport={{ once: true }}
           className="text-center mt-16"
         >
-          <button className="bg-white text-espresso border-2 border-espresso px-12 py-4 rounded-full font-semibold text-lg hover:bg-espresso hover:text-white transition-all duration-300 shadow-lg hover:shadow-xl">
+          <button className="bg-white text-espresso border-2 border-espresso px-12 py-4 rounded-full font-semibold text-lg hover:bg-caramel hover:border-caramel transition-all duration-300 shadow-lg hover:shadow-xl">
             View All Products
           </button>
         </motion.div>

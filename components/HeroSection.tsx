@@ -10,11 +10,12 @@ export default function HeroSection() {
       {/* Full-screen Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=2940"
+          src="/banner.png"
           alt="FORMÉ Activewear"
           fill
           className="object-cover"
           priority
+          unoptimized
         />
         {/* Gradient Overlay */}
         <div className="absolute inset-0 bg-gradient-to-r from-espresso/80 via-espresso/50 to-transparent" />

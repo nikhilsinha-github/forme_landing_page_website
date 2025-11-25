@@ -137,7 +137,7 @@ export default function Footer() {
               </a>
             </div>
             <p className="text-sm text-rich-brown">
-              © 2024 FORMÉ. All rights reserved.
+              © 2025 FORMÉ. All rights reserved.
             </p>
           </div>
         </div>
